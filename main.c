@@ -14,7 +14,7 @@ char *Celsius = readline("Enter temperature in celsius: ");
 
 double tempC = atof(Celsius);
 
-printf("%f° in celsius is euqivalent to %f° Fahrenheit.\n", tempC, tempC*9/5 + 32);
+printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n", tempC, tempC*9/5 + 32);
 
 return 0;
 
